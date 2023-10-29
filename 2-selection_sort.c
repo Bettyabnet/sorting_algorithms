@@ -2,12 +2,14 @@
 
 /**
  * selection_sort - Sorts an array of integers in ascending order
- *                  using the selection sort algorithm.
- * @array: An array of integers.
- * @size: The size of the array.
+ *		    using the selection sort algorithm.
  *
- * Description: Prints the array after each swap.
+ * @array: array of integers.
+ * @size: size of the array.
+ *
+ * Prints the array after each swap.
  */
+
 void selection_sort(int *array, size_t size)
 {
     int *min;
